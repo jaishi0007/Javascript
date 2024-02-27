@@ -7,6 +7,9 @@ lists.forEach(list => {
     })
 })
 
+
+//Event delegation is a programming pattern in which a single event listener is attached to a common ancestor 
+//  (usually a parent) rather than attaching individual event listeners to multiple child elements. 
 ul.addEventListener('click', (e) => {
     console.log(e.target, ' Event from UL');
 })

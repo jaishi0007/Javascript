@@ -1,5 +1,6 @@
 const now = new Date();
 console.log('Typeof Date:', typeof now); //=> object
+console.log(now) //=> Tue Feb 27 2024 23:26:16 GMT+0545 (Nepal Time)
 
 //Date Methods
 console.log('getFullYear:', now.getFullYear()); //=>2023
